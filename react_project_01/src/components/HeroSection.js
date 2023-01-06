@@ -4,8 +4,11 @@ import './HeroSection.css';
 
 function HeroSection() {
     return (
-    <div className='hero-container'>
-        <video src="/videos/video-2.mp4" autoPlay loop muted></video>
+    <div className='hero-container' id="hero">
+        <div className='video-container'>
+            <video src="/videos/video-2.mp4" autoPlay loop muted></video> 
+        </div>
+           
         <div className="main-header">ADVENTURE AWAITS</div>
         <div className="sub-header">What are you waiting for?</div>
         <div className="button-container">

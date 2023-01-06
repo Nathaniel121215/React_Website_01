@@ -5,11 +5,10 @@ import HeroSection from '../HeroSection';
 import { ObjOne, ObjTwo } from "./Data";
 
 
-function Home () {
+function Test () {
     return (
         <>
-            <HeroSection/>
-            <Cards/>
+            {/* <Cards/> */}
             {/* <Cards {...ObjOne}/>
             <Cards {...ObjTwo}/>
              */}
@@ -18,4 +17,4 @@ function Home () {
     )
 }
 
-export default Home;
+export default Test;

@@ -1,13 +1,21 @@
 video {
-    object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position: relative;
+  border: 1px solid blue;
+}
+  .video-container
+  { 
+    top: 80px;
+    display: flex;
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: -1;
+    position: absolute;
   }
-  
   .hero-container {
-    /* background: url('/public/images/img-home.jpg') center center/cover no-repeat; */
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     height: calc(100vh - 80px);
     width: 100%;
     display: flex;
@@ -75,6 +83,16 @@ video {
   } */
   
   @media screen and (max-width: 960px) {
+
+    .video-container
+    { 
+      top: 60px;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+
     .button-container
     {
       display: flex;
@@ -83,6 +101,7 @@ video {
     }
     .hero-container {
       height: calc(100vh - 60px);
+      border: 1px solid red;
     }
     .main-header {
       font-size: 70px;

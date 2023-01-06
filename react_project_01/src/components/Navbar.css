@@ -59,6 +59,7 @@
     text-decoration: none;
     padding: 0.5rem 2rem;
     height: 100%;
+    cursor: pointer;
   }
   
   .nav-links:hover {
@@ -125,7 +126,7 @@
       height: 100vh;
       position: fixed;
       top: 60px;
-      left: -100%;
+      left: -200%;
       opacity: 1;
       transition: all 0.5s ease;
 
@@ -163,6 +164,7 @@
       padding: 2rem;
       width: 100%;
       display: table;
+      cursor: pointer;
 
       
     }
