@@ -8,7 +8,7 @@ import { ObjOne, ObjTwo } from "./Data";
 function Test () {
     return (
         <>
-            {/* <Cards/> */}
+            <Cards/>
             {/* <Cards {...ObjOne}/>
             <Cards {...ObjTwo}/>
              */}
