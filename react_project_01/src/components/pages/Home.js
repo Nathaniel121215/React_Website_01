@@ -3,6 +3,7 @@ import '../../App.css';
 import Cards from "../Cards";
 import HeroSection from '../HeroSection';
 import { ObjOne, ObjTwo } from "./Data";
+import Footer from "../Footer";
 
 
 function Home () {
@@ -13,6 +14,7 @@ function Home () {
             {/* <Cards {...ObjOne}/>
             <Cards {...ObjTwo}/>
              */}
+            <Footer/>
         </>
         
     )

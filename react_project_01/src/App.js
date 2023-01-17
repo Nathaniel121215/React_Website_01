@@ -5,11 +5,13 @@ import { BrowserRouter as Router, Routes, Route} from
 import './App.css';
 import Home from './components/pages/Home';
 import Test from './components/pages/Test';
+import ScrollToTop from './components/scrolltotop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <Navbar />
         {/* <Home/> */}
         <Routes>
